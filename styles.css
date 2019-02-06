@@ -59,13 +59,16 @@ a:active {
   text-decoration: underline;
 }
 
-div.column_left {
+.column {
   float: left;
+  padding: 0px, 10px;
+}
+
+.left {
   width: 80%;
 }
 
-div.column_right {
-  float: left;
+.right {
   width: 20%;
   text-align: right;
 }
