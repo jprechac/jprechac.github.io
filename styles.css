@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+.intro {}
+
+.resume {}
+
+.item {
+  margin-top: -5px;
+  margin-left: +10px;
+}
+
+.secHead {
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.btt {
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover, {
+  color: purple;
+}
+
+a:active {
+  color:purple;
+  text-decoration: underline;
+}
