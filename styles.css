@@ -36,7 +36,8 @@ h6 {}
 }
 
 .itemlist {
-  margin-top: -10px;
+  margin-top: 5px;
+  margin-bottom: +25px;
   margin-left: -10px;
 }
 
@@ -49,11 +50,31 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-a:hover, {
+a:hover {
   color: purple;
 }
 
 a:active {
   color:purple;
   text-decoration: underline;
+}
+
+div.column_left {
+  float: left;
+  width: 80%;
+}
+
+div.column_right {
+  float: left;
+  width: 20%;
+  text-align: right;
+}
+
+.row {
+  display: flex;
+}
+
+.row:after {
+  content: "";
+  clear: both;
 }
