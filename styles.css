@@ -97,3 +97,15 @@ a:active {
   content: "";
   clear: both;
 }
+
+.button {
+  height: 20px;
+  background-color: lightgrey;
+  width: 100px;
+  margin-left: 20px;
+  float: left;
+}
+
+.btext {
+  text-align: center;
+}
