@@ -29,6 +29,12 @@ h6 {}
   margin-left: +10px;
 }
 
+.section {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
 .secHead {
   text-decoration: underline;
   margin-top: 10px;
@@ -37,7 +43,7 @@ h6 {}
 
 .itemlist {
   margin-top: 5px;
-  margin-bottom: +25px;
+  margin-bottom: 10px;
   margin-left: -10px;
 }
 
