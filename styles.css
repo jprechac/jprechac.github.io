@@ -20,12 +20,18 @@ h5 {}
 
 h6 {}
 
+.resume {
+  margin-bottom: 40px;
+}
+
 .intro {}
 
-.resume {}
+.signature {
+  margin-top: 20px;
+}
 
 .item {
-  margin-top: -5px;
+  margin-top: 0px;
   margin-left: +10px;
 }
 
@@ -37,7 +43,7 @@ h6 {}
 
 .secHead {
   text-decoration: underline;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
