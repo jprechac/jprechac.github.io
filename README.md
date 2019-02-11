@@ -1,4 +1,4 @@
-#My information and resume
+#MyInfo
 
 Goal is to put my resume on a website so I can stop worrying about updating a file every time
 
