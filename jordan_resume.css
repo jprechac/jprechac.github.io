@@ -26,6 +26,8 @@ h5 {}
 
 h6 {}
 
+p {}
+
 .header {
   margin: 20px 0px;
   text-align: center;
@@ -44,6 +46,7 @@ h6 {}
 
 .item {
   margin-top: 0px;
+  margin-bottom: 10px;
   margin-left: 0px;
   padding: 0px 10px;
 }
@@ -62,7 +65,7 @@ h6 {}
 
 .itemlist {
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-left: -10px;
 }
 
