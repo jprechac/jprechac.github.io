@@ -128,8 +128,8 @@ a:active {
   clear: both;
 }
 
-a.button:link, a.button:visited {
-  background-color: rgb(229,75,75);
+.button {
+  background-color: rgb(225,225,170);
   padding: 4px 5px;
   text-align: center;
   text-decoration: none;
@@ -138,4 +138,14 @@ a.button:link, a.button:visited {
 
 #b01 {
   margin-top:15px;
+}
+
+#contact {
+  float: right;
+  margin-bottom: 10px;
+}
+
+#contact:after {
+  content: "";
+  clear: both;
 }
