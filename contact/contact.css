@@ -11,3 +11,39 @@ body {
   max-width: 1000px;
   margin: auto;
 }
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.header {
+  text-align: center;
+}
+
+#contact_box {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: rgb(240,240,185);
+}

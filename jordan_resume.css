@@ -42,22 +42,22 @@ p {
 
 }
 
-.header {
-  margin: 20px 0px;
-  text-align: center;
+.intro {
+
 }
 
 .resume {
   margin-bottom: 20px;
 }
 
-.intro {
-
-}
-
 .signature {
   margin-top: 10px;
   padding-top: 10px;
+}
+
+.header {
+  margin: 20px 0px;
+  text-align: center;
 }
 
 .item {
@@ -128,24 +128,20 @@ a:active {
   clear: both;
 }
 
-.button {
+/* .button {
   background-color: rgb(225,225,170);
   padding: 4px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-}
+} */
 
 #b01 {
   margin-top:15px;
 }
 
 #contact {
-  float: right;
   margin-bottom: 10px;
-}
-
-#contact:after {
-  content: "";
-  clear: both;
+  width: 100%;
+  text-align: right;
 }
