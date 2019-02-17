@@ -65,6 +65,7 @@ p {
   margin-bottom: 10px;
   margin-left: 0px;
   padding: 0px 10px;
+  visibility: visible;
 }
 
 .section {
@@ -83,10 +84,6 @@ p {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: -10px;
-}
-
-.btt {
-  text-align: center;
 }
 
 a:link, a:visited {
@@ -140,6 +137,10 @@ a:active {
   display: inline-block;
 } */
 
+.inter_link {
+  font-size: 12px;
+}
+
 #b01 {
   margin-top:15px;
 }
@@ -153,4 +154,12 @@ a:active {
 #akpsi_link {
   margin-top: 4px;
   font-size: 14px;
+}
+
+#btt {
+  text-align: center;
+}
+
+#btm {
+  text-align: left;
 }
