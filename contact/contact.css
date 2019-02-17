@@ -54,12 +54,12 @@ h6 {
 }
 
 .right {
-  width: 25%;
+  width: 40%;
   text-align: right;
 }
 
 .left {
-  width: 75%;
+  width: 60%;
   text-align: left;
 }
 
@@ -87,10 +87,10 @@ h6 {
 } */
 
 input[type=text], textarea {
-  width: 45%;
+  width: 75%;
   margin-top: 5px;
   margin-bottom: 20px;
-  padding: 2px;
+  padding: 3px;
   border: 1px solid rgb(150,150,150);
 }
 
