@@ -103,6 +103,7 @@ textarea {
   max-width: 800px;
   margin: auto;
   margin-top: 25px;
+  margin-bottom: 25px;
   padding: 15px 20px;
-  background-color: rgb(240,240,185);
+  background-color: rgb(245,245,220);
 }
