@@ -18,33 +18,21 @@ h1 {
   color: inherit;
 }
 
-h2 {
-
-}
+h2 {}
 
 h3 {
   margin: inherit;
 }
 
-h4 {
+h4 {}
 
-}
+h5 {}
 
-h5 {
+h6 {}
 
-}
+p {}
 
-h6 {
-
-}
-
-p {
-
-}
-
-.intro {
-
-}
+.intro {}
 
 .resume {
   margin-bottom: 20px;
@@ -84,6 +72,13 @@ p {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: -10px;
+}
+
+.itemlist li h5 {
+  margin: 0px;
+  padding: 0px;
+
+  font-size: 1rem;
 }
 
 a:link, a:visited {
@@ -161,4 +156,8 @@ a:active {
 
 #btm {
   text-align: left;
+}
+
+#skills .item li {
+  margin-bottom: .2rem;
 }
