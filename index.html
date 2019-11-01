@@ -1,328 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang='en'>
+
 <head>
-  <meta http-equiv="content-type" content="text/html">
-  <meta charset="UTF-8">
-  <meta name="keywords" content="Jordan, Prechac, Jordan Prechac, Resume">
-  <meta name="description" content="Professional information and resume for Jordan Prechac">
-  <meta name="author" content="Jordan Prechac">
-  <title>Jordan Prechac</title>
-  <link rel="stylesheet" href="resources/jordan_resume.css">
-  <link rel="stylesheet" href="resources/button.css">
-  <link rel="icon" href="resources/images/favicon.ico">
-  <link rel="shortcut icon" href="resources/images/favicon.ico">
+    <meta name="author" content="Jordan Prechac" />
+
+    <!-- bootstrap stuff -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="resources/css/base.css" />
+
+    <!-- js -->
+    <script src="resources/js/base.js"></script>
 </head>
 
 <body>
-<div id="body">
-  <div class="intro">
-    <div class="header">
-      <h1>
-        Introduction
-      </h1>
-    </div>
-    <p class="description">
-      <!--Type the introduction-->
-    </p>
-  </div>
-
-  <hr>
-
-  <div class="resume">
-    <div class="header">
-      <h1>
-        Resume
-      </h1>
-    </div>
-    <div class="section">
-      <div class="secHead">
-        <h3>
-          Education
-        </h3>
-      </div>
-      <div class="item" id="LSU">
-        <div class="row">
-          <div class="column left">
-            <div onclick="hide('LSU')" id="LSU_head">
-              <b>Louisiana State University</b><br>
-            </div>
-            <i>Baton Rouge, LA</i><br>
-            Bachelor of Science: Information Systems and Decision Sciences<br>
-            Minor: Analytics
-          </div>
-          <div class="column right">
-            <b>Graduating May 2020</b><br>
-            <i>Overall GPA: 3.34</i>
-          </div>
-        </div>
-      </div>
-      <div class="item" id="Jesuit">
-        <div class="row">
-          <div class="column left">
-            <div onclick="hide('Jesuit')" id="Jesuit_head">
-              <b>Jesuit High School New Orleans</b><br>
-            </div>
-            <i>New Orleans, LA</i>
-          </div>
-          <div class="column right">
-            <b>Class of 2016</b><br>
-            <i>GPA: 3.5</i>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="secHead">
-        <h3>
-          Work and Leadership Experience
-        </h3>
-      </div>
-      <div class="item" id="revibe">
-        <div class="row">
-          <div class="column left">
-            <b>Back-end Developer</b><br>
-            <i>Revibe</i>
-            <ul class="itemlist">
-              <li>Redesign and build database to store our own artist's songs as well as references to other services' API endpoints</li>
-              <li>Create API endpoints from our database to connect to both mobile and web applications using the Django REST Framework</li>
-              <li>Collaborate with front-end team to ensure that all back-end services are properly supporting the applications</li>
-              <!-- <li>Consult with business owners to explain technology stack to current and potential investors</li> -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="navabr-nav active">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
             </ul>
-          </div>
-          <div class="column right">
-            <b>October 2019 - Present</b><br>
-            <i>Baton Rouge, LA</i>
-          </div>
         </div>
-      </div>
-      <div class="item" id="ots">
-        <div class="row">
-          <div class="column left">
-            <b>Enterprise Architect Student Worker</b><br>
-            <i>Louisiana Office of Technology Services - Enterprise Architecture</i>
-            <ul class="itemlist">
-              <li>Build a Microsoft SQL Server database for tracking server/application information</li>
-              <li>Migrate data from independent files to Amazon Web Services databases</li>
-              <li>Develop a web-based application for asset management using Python's Django framework</li>
-              <li>Convert the Python web-app to C# and ASP.NET's Model-View-Controller framework</li>
-              <li>Create and test build and deployment pipelines using Bamboo</li>
-            </ul>
-          </div>
-          <div class="column right">
-            <b>March 2019 - Present</b><br>
-            <i>Baton Rouge, LA</i>
-          </div>
-        </div>
-      </div>
-      <div class="item" id="cvx">
-        <div class="row">
-          <div class="column left">
-            <b>Business Intelligence Intern</b><br>
-            <i>Chevron</i>
-            <ul class="itemlist">
-              <li>Utilize Microsoft Azure Databricks to merge HR data from 15+ data sources to create rosters for all 45,000+ employees</li>
-              <li>Create a Power BI dashboard to enhance HR's decision making while choosing candidates for internal job postings and promotions</li>
-              <li>Write a program alongside data scientists and machine-learning engineers for real-time processing of streamed data using an Azure Function and Azure Event Hub</li>
-              <li>Develop a web application using the Microsoft PowerApps platform in a Hackathon-style event with a team of 4 other interns from across the IT function</li>
-            </ul>
-          </div>
-          <div class = "column right">
-            <b>May 2019 - August 2019</b><br>
-            <i>Houston, TX</i>
-          </div>
-        </div>
-      </div>
-      <div class="item" id="akp">
-        <div class="row">
-          <div class="column left">
-            <b>President, Executive Vice President</b><br>
-            <i>Alpha Kappa Psi Business Fraternity</i>
-            <ul class="itemlist">
-              <li>Lead a team of 15+ officers in achieving personal and organizational goals</li>
-              <li>Managed the ~100-person chapter, including facilitating all discipline and risk management policies of the Fraternity and the university</li>
-              <li>Set and worked towards short- and long-term goals for organization across all areas</li>
-              <li>Provided feedback to national volunteers and staff about new fraternity programs and initiatives</li>
-              <li>Presented on our chapter’s Yellow Rose Gala to a convention of about 1000 members from across the Southeast</li>
-              <li>Created a database for storing membership records long-term, and used it to gain insight into the organization</li>
-              <li>Mentored multiple new members of the organization through the Big Brother program</li>
-            </ul>
-          </div>
-          <div class="column right">
-            <b>April 2017 - April 2019</b><br>
-            <i>Baton Rouge, LA</i>
-          </div>
-        </div>
-      </div>
-      <div class="item" id="UREC">
-        <div class="row">
-          <div class="column left">
-            <b>IT Assistant</b><br>
-            <i>LSU University Recreation</i>
-            <ul class="itemlist">
-              <li>Taught new software systems and technology to student employees and staff members</li>
-              <li>Managed membership and iris-scanner databases for facility access</li>
-              <li>Troubleshot equipment and programs across a variety of departments and use-cases</li>
-              <li>Set up new computers and servers from scratch including operating systems and basic programs</li>
-            </ul>
-          </div>
-          <div class="column right">
-            <b>March 2017 - March 2019</b><br>
-            <i>Baton Rouge, LA</i>
-          </div>
-        </div>
-      </div>
-      <div class="item" id="george">
-        <div class="row">
-          <div class="column left">
-            <b>Camp Counselor</b><br>
-            <i>St. George's Episcopal School Summer Camp</i>
-            <ul class="itemlist">
-              <li>Oversaw 20 to 60 kids, ages six to twelve, throughout an 8-hour day</li>
-              <li>Assisted the camp director in planning and directing daily activities</li>
-              <li>Coordinated with 3rd party vendors to set up special Friday events</li>
-            </ul>
-          </div>
-          <div class="column right">
-            <b>June 2014 - July 2015</b><br>
-            <i>New Orleans, LA</i>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="secHead">
-        <h3>
-          Volunteer Experience
-        </h3>
-      </div>
-      <div class="item" id="MCLA">
-        <div class="row">
-          <div class="column left">
-            <b>Counselor in Training</b><br>
-            <i>MedCamps of Louisiana</i>
-            <ul class="itemlist">
-              <li>Entertained and played with campers with Cerebral Palsy and Spina Bifida</la>
-              <li>Ensured that all activities are both fun and safe for special needs children</li>
-              <li>Assisted with maintenance of camp grounds</li>
-              <li>Maintained care and assistance in a week-long, overnight camp setting</li>
-            </ul>
-          </div>
-          <div class="column right">
-            <b>June 2014 - July 2015</b><br>
-            <i>Ruston, LA</i>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="section" id="skills">
-      <div class="secHead">
-        <h3>Skills</h3>
-      </div>
-      <div class="item">
-        <ul class="itemlist">
-          <li>
-            <h5>Programming Languages</h5>
-            <p class="description">
-              HTML, CSS, JavaScript, jQuery, React, Python 3, C#
-            </p>
-          </li>
-          <li>
-            <h5>Cloud Services</h5>
-            <p class="description">
-              Microsoft Azure, Amazon Web Services
-            </p>
-          </li>
-          <li>
-            <h5>Analytics Tools</h5>
-            <p class="description">
-              PowerBI, Tableau
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section" id="interests_activities">
-      <div class="secHead">
-        <h3>
-          Other Interests and Activities
-        </h3>
-      </div>
-      <div class="item">
-        <ul class="itemlist">
-          <li>Alpha Kappa Psi - Student Advisory Council</li>
-          <li>LSU Student Government - President's Cabinet</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="secHead">
-        <h3>
-          Projects
-        </h3>
-      </div>
-      <div class="item" id="akp_database">
-        <div class="row">
-          <div class="column left">
-            <div onclick="hide('akp_database')" id="akp_database_head">
-              <b>AKPsi Beta Chi Membership Database and Web-App</b><br>
-            </div>
-            <p class="description">
-              The goal of this project was to create a system that could store the chapter's information long-term and in a format that could be easily pulled into data visualization and statistics tools.<br>
-              I began this project fairly early into my term as the chapter's Executive Vice President, and will likely have to pass it off to a younger member when I graduate for finishing touches and upkeep.
-              The information I was able to pull from the data was interesting, with my primary focus being on membership numbers across semesters over time.
-              <br><br>
-              The project later evolved into a web-application to help members keep track of their requirements and to help officers keep track
-              of membership information on their own. I worked with a few other members of the chapter to design the application.
-            </p>
-            <ul class="itemlist">
-              <li><b>Storage - </b>Originally MySQL, but Heroku manages storage automatically</li>
-              <li><b>Analytics - </b>Microsoft Power BI</li>
-              <li><b>Web Framework - </b>Python's Django framework</li>
-              <li><b>Hosting - </b>Heroku</li>
-            </ul>
-          </div>
-          <div class="column right">
-            <b>October 2017 - Present</b><br>
-            <i>Incomplete</i>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="b01">
-      <a href="resources/documents/JordanPrechacResume.pdf"; target="_blank";>
-        PDF Version
-      </a>
-    </div>
-  </div>
-
-  <hr>
-  <div class="signature">
-    <address>
-      <b>Jordan Prechac</b><br>
-      Technology Enthusiast<br/>
-      New Orleans native - Who Dat!<br/>
-      <a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">
-        LinkedIn
-      </a>
-  </div>
-
-  <!-- <div id="contact">
-    <a href="contact/contact.html">
-      <button type="button">
-        Contact me
-      </button>
-    </a>
-  </div> -->
-
-  <div id="btt" class="inter_link" title="Back to top">
-    <a href="">Back to top</a>
-  </div>
-</div>
+    </nav>
 </body>
-<html>
+
+</html>
