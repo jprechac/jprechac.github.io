@@ -1,3 +1,10 @@
-#headshot-container {
+#main {
+    margin-top: 10px;
+}
+
+.img-container {
     min-width: 210px;
+}
+.rounded-corners {
+    border-radius: 30%;
 }
