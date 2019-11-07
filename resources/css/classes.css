@@ -34,3 +34,6 @@
 .lg-margin-left {
     margin-left: var(--lg-margin);
 }
+.color-revibe {
+    color: var(--revibe-purple);
+}
