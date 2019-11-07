@@ -16,6 +16,8 @@
 
     <!-- styling -->
     <link rel="stylesheet" href="resources/css/base.css" />
+    <link rel="stylesheet" href="resources/css/images.css" />
+    <link rel="stylesheet" href="resources/css/classes.css" />
 
     <!-- js -->
     <script src="resources/js/base.js"></script>
@@ -36,27 +38,40 @@
     </nav>
 
     <div class="container" id="main">
-        <div class="row">
-            <div class="col-1 img-container">
-                <img class="rounded-corners" src="./resources/images/headshot.jpg" alt="Jordan's headshot">
-            </div>
-            <div class="col-8">
-                <h1>Jordan Prechac</h1>
-                <p>
-                    Jordan Prechac is something something something...
-                    <br>
-                    words and stuff
-                </p>
+        <div id="into">
+            <div class="row">
+                <div class="col-1 img-container">
+                    <img class="img rounded-corners" src="./resources/images/headshot.jpg" alt="Jordan's headshot" height="200px" width="200px">
+                </div>
+                <div class="col-8">
+                    <h1>Meet Jordan</h1>
+                    <p>
+                        Jordan Prechac is a ...
+                        <br>
+                        something something something
+                        <br><br>
+                        If you would like to get in touch, please connect with/message me on <a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">LinkedIn</a>.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="container">
-            <h1>Projects</h1>
-        </div>
-        
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
+        <div id="experience">
+            <div class="container md-margin-bottom lg-margin-top">
+                <h1>Experience</h1>
+            </div>
+            
+            <div class="row md-margin-bottom" id="louisiana">
+                <div class="col-8"></div>
+                <div class="col-1 img-container">
+                    <img class="img img-right" src="./resources/images/louisiana.jpg" alt="Louisiana logo" height="200px" width="200px">
+                </div>
+            </div>
+
+            <div class="row md-margin-bottom" id="revibe">
+                <div class="col-1 img-container"></div>
+                <div class="col-8"></div>
+            </div>
         </div>
     </div>
 </body>

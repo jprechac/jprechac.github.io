@@ -1,10 +1,11 @@
-#main {
-    margin-top: 10px;
+:root {
+    --bg-navy: #343a40;
+
+    --sm-margin: 10px;
+    --md-margin: 25px;
+    --lg-margin: 40px;
 }
 
-.img-container {
-    min-width: 210px;
-}
-.rounded-corners {
-    border-radius: 30%;
+#main {
+    margin-top: 10px;
 }
