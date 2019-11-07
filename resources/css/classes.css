@@ -37,3 +37,12 @@
 .color-revibe {
     color: var(--revibe-purple);
 }
+.quiet-link {
+    color: inherit;
+    text-decoration: none;
+}
+.quiet-link:hover {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
