@@ -15,3 +15,10 @@
 h1,h2,h3,h4,h5,h6,p {
     cursor: default;
 }
+p {
+    font-size: 1.4rem;
+}
+
+footer.footer {
+    margin-bottom: 15px;
+}
