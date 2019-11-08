@@ -38,30 +38,42 @@
         <div class="container">
             <a class="navbar-brand" href="index.html">Jordan Prechac</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <div class="navbar-nav">
                     <a class="nav-link" href="resume.html">Resume</a>
                     <a class="nav-link" href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn"
-                    target="_blank">LinkedIn</a>
+                        target="_blank">LinkedIn</a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <div class="container">
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">Please excuse the appearance while under construction</h4>
+            <p class="mb-0">
+                I am still working on the content and structure of this website, so please excuse the
+                mess for the time being.
+                <br>
+                Thank you for your understanding.
+            </p>
+        </div>
+    </div>
+
     <main class="container">
-        <div class="container-fluid" id="into">
+        <div class="container-fluid" id="intro">
             <div class="row">
                 <div class="col-md-auto">
                     <img class="rounded-corners" src="./resources/images/headshot.jpg" alt="Jordan's headshot"
                         height="200px" width="200px">
                 </div>
                 <div class="col-md">
-                    <h1>Meet Jordan</h1>
+                    <!-- <h1>Meet Jordan</h1> -->
                     <p>
-                        Jordan Prechac is a &hellip;
+                        Jordan Prechac &hellip;
                         <br>
                         something something something
                     </p>
@@ -85,32 +97,56 @@
                 <h1>Experience</h1>
             </div>
 
-            <div class="row md-margin-bottom" id="revibe">
-                <div class="col-auto"></div>
-                <div class="col">
-                    <h3 class="color-revibe">
-                        <a class="quiet-link" href="https://revibe.tech" target="_blank" title="Revibe">Revibe</a>
-                    </h3>
-                    <p>
-                        Revibe combines your Spotify and YouTube libraries so that you never have to interrupt
-                        your queue again. Check out the website <a class="quiet-link" href="https://revibe.tech"
-                            target="_blank" title="Revibe">here</a>.
-                    </p>
+            <div class="margin-bottom-md" id="revibe">
+                <div class="row">
+                    <div class="col-md-auto"></div>
+                    <div class="col-md">
+                        <h3 class="color-revibe">
+                            <a class="quiet-link" href="https://revibe.tech" target="_blank" title="Revibe">Revibe</a>
+                        </h3>
+                        <p class="text-muted">
+                            Revibe combines your Spotify and YouTube libraries so that you never have to interrupt
+                            your queue again. Check out the website <a class="quiet-link" href="https://revibe.tech"
+                                target="_blank" title="Revibe">here</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            As an intern for Revibe, I was responsible for the majority of the back-end development
+                            and subsequent API construction.
+                            <br>
+                            We used Django and the Django REST Framework to build out our databases and APIs,
+                            and hosted our services in Amazon Web Services EC2 instances. File/media storage was
+                            handled by an AWS S3 bucket, which I also implemented.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="row margin-bottom-md" id="louisiana">
-                <div class="col">
-                    <h3>Louisiana Office of Technology Services</h3>
+            <div class="margin-bottom-md" id="louisiana">
+                <div class="row">
+                    <div class="col-md">
+                        <h3 class="color-louisiana">
+                            <a class="quiet-link" href="https://www.doa.la.gov/Pages/ots/Index.aspx" target="_blank"
+                                title="LA Office of Technology Services">Louisiana Office of Technology Services</a>
+                        </h3>
+                    </div>
+                    <div class="col-md-auto">
+                        <img src="./resources/images/louisiana.jpg" alt="Louisiana logo" height="200px" width="200px">
+                    </div>
                 </div>
-                <div class="col-auto">
-                    <img src="./resources/images/louisiana.jpg" alt="Louisiana logo" height="200px" width="200px">
+                <div class="row">
+                    <div class="col"></div>
                 </div>
             </div>
         </div>
     </main>
 
-    <hr>
+    <div class="container-fluid">
+        <hr>
+    </div>
 
     <footer class="footer">
         <div class="container text-muted">

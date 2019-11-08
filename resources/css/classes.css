@@ -37,6 +37,9 @@
 .color-revibe {
     color: var(--revibe-purple);
 }
+.color-louisiana {
+    color: var(--louisiana-blue);
+}
 .quiet-link {
     color: inherit;
     text-decoration: none;

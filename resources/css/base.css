@@ -2,6 +2,7 @@
     --bg-navy: #343a40;
 
     --revibe-purple: #7248bd;
+    --louisiana-blue: #007299;
 
     --sm-margin: 10px;
     --md-margin: 25px;
@@ -16,7 +17,7 @@ h1,h2,h3,h4,h5,h6,p {
     cursor: default;
 }
 p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 footer.footer {
