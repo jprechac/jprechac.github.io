@@ -1,4 +1,4 @@
 window.onload = () => {
-    offsetNavHeight();
+    RunNav();
     FooterYear();
 };
