@@ -2,9 +2,10 @@
 <html lang="en-US">
 
 <head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="content-type" content="text/html" />
 	<meta name="author" content="Jordan Prechac" />
-	<meta http-equiv="content-type" content="text/html">
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title>Jordan Prechac</title>
 
@@ -64,247 +65,216 @@
 	</div>
 
 	<main class="container">
-		<div class="header">
-			<h1>
-				Resume
-			</h1>
-		</div>
-		<div class="section">
-			<div class="secHead">
-				<h3>
-					Education
-				</h3>
-			</div>
-			<div class="item" id="LSU">
-				<div class="row">
-					<div class="column left">
-						<div onclick="hide('LSU')" id="LSU_head">
-							<b>Louisiana State University</b><br>
-						</div>
-						<i>Baton Rouge, LA</i><br>
-						Bachelor of Science: Information Systems and Decision Sciences<br>
-						Minor: Analytics
-					</div>
-					<div class="column right">
-						<b>Graduating May 2020</b><br>
-						<i>Overall GPA: 3.34</i>
-					</div>
+		<div class="container-fluid margin-bottom-md" id="education">
+			<h2>Education</h2>
+			<div class="row margin-bottom-sm" id="LSU">
+				<div class="col-sm">
+					<h5 class="margin-none">Louisiana State University</h5>
+					<i>Baton Rouge, LA</i>
+					<br>
+					Bachelor of Science: Information Systems and Decision Sciences
+					<br>
+					Minor: Analytics
+				</div>
+				<div class="col-sm-3">
+					<b>Graduating May 2020</b>
+					<br>
+					<i>Overall GPA: 3.34</i>
 				</div>
 			</div>
-			<div class="item" id="Jesuit">
-				<div class="row">
-					<div class="column left">
-						<div onclick="hide('Jesuit')" id="Jesuit_head">
-							<b>Jesuit High School New Orleans</b><br>
-						</div>
-						<i>New Orleans, LA</i>
-					</div>
-					<div class="column right">
-						<b>Class of 2016</b><br>
-						<i>GPA: 3.5</i>
-					</div>
+
+			<div class="row margin-bottom-sm" id="Jesuit">
+				<div class="col-sm">
+					<h5 class="margin-none">Jesuit High School New Orleans</h5>
+					<i>New Orleans, LA</i>
+				</div>
+				<div class="col-sm-3">
+					<b>Class of 2016</b>
+					<br>
+					<i>GPA: 3.5</i>
 				</div>
 			</div>
 		</div>
 
-		<div class="section">
-			<div class="secHead">
-				<h3>
-					Work and Leadership Experience
-				</h3>
-			</div>
-			<div class="item" id="revibe">
-				<div class="row">
-					<div class="column left">
-						<b>Back-end Developer</b><br>
-						<i>Revibe</i>
-						<ul class="itemlist">
-							<li>Redesign and build database to store our own artist's songs as well as references to
-								other services' API endpoints</li>
-							<li>Create API endpoints from our database to connect to both mobile and web applications
-								using the Django REST Framework</li>
-							<li>Collaborate with front-end team to ensure that all back-end services are properly
-								supporting the applications</li>
-							<!-- <li>Consult with business owners to explain technology stack to current and potential investors</li> -->
-						</ul>
-					</div>
-					<div class="column right">
-						<b>October 2019 - Present</b><br>
-						<i>Baton Rouge, LA</i>
-					</div>
+		<hr>
+
+		<div class="container-fluid margin-bottom-md" id="Work">
+			<h2>Work and Leadership Experience</h2>
+
+			<div class="row margin-bottom-sm" id="Revibe">
+				<div class="col-sm">
+					<h5 class="margin-none">Back-end Developer</h5>
+					<i>Revibe</i>
+					<ul>
+						<li>Redesign and build database to store our own artist's songs as well as references to
+							other services' API endpoints</li>
+						<li>Create API endpoints from our database to connect to both mobile and web applications
+							using the Django REST Framework</li>
+						<li>Collaborate with front-end team to ensure that all back-end services are properly
+							supporting the applications</li>
+						<!-- <li>Consult with business owners to explain technology stack to current and potential investors</li> -->
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>October 2019 - Present</b>
+					<br>
+					<i>Baton Rouge, LA</i>
 				</div>
 			</div>
-			<div class="item" id="ots">
-				<div class="row">
-					<div class="column left">
-						<b>Enterprise Architect Student Worker</b><br>
-						<i>Louisiana Office of Technology Services - Enterprise Architecture</i>
-						<ul class="itemlist">
-							<li>Build a Microsoft SQL Server database for tracking server/application information</li>
-							<li>Migrate data from independent files to Amazon Web Services databases</li>
-							<li>Develop a web-based application for asset management using Python's Django framework
-							</li>
-							<li>Convert the Python web-app to C# and ASP.NET's Model-View-Controller framework</li>
-							<li>Create and test build and deployment pipelines using Bamboo</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>March 2019 - Present</b><br>
-						<i>Baton Rouge, LA</i>
-					</div>
+
+			<div class="row margin-bottom-sm" id="ots">
+				<div class="col-sm">
+					<h5 class="margin-none">Enterprise Architect Student Worker</h5>
+					<i>Louisiana Office of Technology Services - Enterprise Architecture</i>
+					<ul class="itemlist">
+						<li>Build a Microsoft SQL Server database for tracking server/application information</li>
+						<li>Migrate data from independent files to Amazon Web Services databases</li>
+						<li>Develop a web-based application for asset management using Python's Django framework
+						</li>
+						<li>Convert the Python web-app to C# and ASP.NET's Model-View-Controller framework</li>
+						<li>Create and test build and deployment pipelines using Bamboo</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>March 2019 - Present</b><br>
+					<i>Baton Rouge, LA</i>
 				</div>
 			</div>
-			<div class="item" id="cvx">
-				<div class="row">
-					<div class="column left">
-						<b>Business Intelligence Intern</b><br>
-						<i>Chevron</i>
-						<ul class="itemlist">
-							<li>Utilize Microsoft Azure Databricks to merge HR data from 15+ data sources to create
-								rosters for all 45,000+ employees</li>
-							<li>Create a Power BI dashboard to enhance HR's decision making while choosing candidates
-								for internal job postings and promotions</li>
-							<li>Write a program alongside data scientists and machine-learning engineers for real-time
-								processing of streamed data using an Azure Function and Azure Event Hub</li>
-							<li>Develop a web application using the Microsoft PowerApps platform in a Hackathon-style
-								event with a team of 4 other interns from across the IT function</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>May 2019 - August 2019</b><br>
-						<i>Houston, TX</i>
-					</div>
+
+			<div class="row margin-bottom-sm" id="cvx">
+				<div class="col-sm">
+					<h5 class="margin-none">Business Intelligence Intern</h5>
+					<i>Chevron</i>
+					<ul class="itemlist">
+						<li>Utilize Microsoft Azure Databricks to merge HR data from 15+ data sources to create
+							rosters for all 45,000+ employees</li>
+						<li>Create a Power BI dashboard to enhance HR's decision making while choosing candidates
+							for internal job postings and promotions</li>
+						<li>Write a program alongside data scientists and machine-learning engineers for real-time
+							processing of streamed data using an Azure Function and Azure Event Hub</li>
+						<li>Develop a web application using the Microsoft PowerApps platform in a Hackathon-style
+							event with a team of 4 other interns from across the IT function</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>May 2019 - August 2019</b><br>
+					<i>Houston, TX</i>
 				</div>
 			</div>
-			<div class="item" id="akp">
-				<div class="row">
-					<div class="column left">
-						<b>President, Executive Vice President</b><br>
-						<i>Alpha Kappa Psi Business Fraternity</i>
-						<ul class="itemlist">
-							<li>Lead a team of 15+ officers in achieving personal and organizational goals</li>
-							<li>Managed the ~100-person chapter, including facilitating all discipline and risk
-								management policies of the Fraternity and the university</li>
-							<li>Set and worked towards short- and long-term goals for organization across all areas</li>
-							<li>Provided feedback to national volunteers and staff about new fraternity programs and
-								initiatives</li>
-							<li>Presented on our chapter’s Yellow Rose Gala to a convention of about 1000 members from
-								across the Southeast</li>
-							<li>Created a database for storing membership records long-term, and used it to gain insight
-								into the organization</li>
-							<li>Mentored multiple new members of the organization through the Big Brother program</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>April 2017 - April 2019</b><br>
-						<i>Baton Rouge, LA</i>
-					</div>
+
+			<div class="row margin-bottom-sm" id="AKPsi">
+				<div class="col-sm">
+					<h5 class="margin-none">President, Executive Vice President</h5>
+					<i>Alpha Kappa Psi Business Fraternity - Beta Chi Chapter</i>
+					<ul>
+						<li>Lead a team of 15+ officers in achieving personal and organizational goals</li>
+						<li>Managed the ~100-person chapter, including facilitating all discipline and risk
+							management policies of the Fraternity and the university</li>
+						<li>Set and worked towards short- and long-term goals for organization across all areas</li>
+						<li>Provided feedback to national volunteers and staff about new fraternity programs and
+							initiatives</li>
+						<li>Presented on our chapter’s Yellow Rose Gala to a convention of about 1000 members from
+							across the Southeast</li>
+						<li>Created a database for storing membership records long-term, and used it to gain insight
+							into the organization</li>
+						<li>Mentored multiple new members of the organization through the Big Brother program</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>April 2017 - April 2019</b><br>
+					<i>Baton Rouge, LA</i>
 				</div>
 			</div>
-			<div class="item" id="UREC">
-				<div class="row">
-					<div class="column left">
-						<b>IT Assistant</b><br>
-						<i>LSU University Recreation</i>
-						<ul class="itemlist">
-							<li>Taught new software systems and technology to student employees and staff members</li>
-							<li>Managed membership and iris-scanner databases for facility access</li>
-							<li>Troubleshot equipment and programs across a variety of departments and use-cases</li>
-							<li>Set up new computers and servers from scratch including operating systems and basic
-								programs</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>March 2017 - March 2019</b><br>
-						<i>Baton Rouge, LA</i>
-					</div>
+			
+			<div class="row margin-bottom-sm" id="UREC">
+				<div class="col-sm">
+					<h5 class="margin-none">IT Assistant</h5>
+					<i>LSU University Recreation</i>
+					<ul>
+						<li>Taught new software systems and technology to student employees and staff members</li>
+						<li>Managed membership and iris-scanner databases for facility access</li>
+						<li>Troubleshot equipment and programs across a variety of departments and use-cases</li>
+						<li>Set up new computers and servers from scratch including operating systems and basic
+							programs</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>March 2017 - March 2019</b><br>
+					<i>Baton Rouge, LA</i>
 				</div>
 			</div>
-			<div class="item" id="george">
-				<div class="row">
-					<div class="column left">
-						<b>Camp Counselor</b><br>
-						<i>St. George's Episcopal School Summer Camp</i>
-						<ul class="itemlist">
-							<li>Oversaw 20 to 60 kids, ages six to twelve, throughout an 8-hour day</li>
-							<li>Assisted the camp director in planning and directing daily activities</li>
-							<li>Coordinated with 3rd party vendors to set up special Friday events</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>June 2014 - July 2015</b><br>
-						<i>New Orleans, LA</i>
-					</div>
+			
+			<div class="row margin-bottom-sm" id="st.george">
+				<div class="col-sm">
+					<h5 class="margin-none">Camp Counselor</h5>
+					<i>St. George's Episcopal School Summer Camp</i>
+					<ul>
+						<li>Oversaw 20 to 60 kids, ages six to twelve, throughout an 8-hour day</li>
+						<li>Assisted the camp director in planning and directing daily activities</li>
+						<li>Coordinated with 3rd party vendors to set up special Friday events</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>June 2014 - July 2015</b><br>
+					<i>New Orleans, LA</i>
 				</div>
 			</div>
 		</div>
 
-		<div class="section">
-			<div class="secHead">
-				<h3>
-					Volunteer Experience
-				</h3>
-			</div>
-			<div class="item" id="MCLA">
-				<div class="row">
-					<div class="column left">
-						<b>Counselor in Training</b><br>
-						<i>MedCamps of Louisiana</i>
-						<ul class="itemlist">
-							<li>Entertained and played with campers with Cerebral Palsy and Spina Bifida</la>
-							<li>Ensured that all activities are both fun and safe for special needs children</li>
-							<li>Assisted with maintenance of camp grounds</li>
-							<li>Maintained care and assistance in a week-long, overnight camp setting</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>June 2014 - July 2015</b><br>
-						<i>Ruston, LA</i>
-					</div>
+		<hr>
+
+		<div class="container-fluid margin-bottom-md" id="volunteer">
+			<h2>Volunteer Experience</h2>
+			
+			<div class="row" id="MCLA">
+				<div class="col-sm">
+					<h5 class="margin-none">Counselor in Training</h5>
+					<i>MedCamps of Louisiana</i>
+					<ul>
+						<li>Entertained and played with campers with Cerebral Palsy and Spina Bifida</la>
+						<li>Ensured that all activities are both fun and safe for special needs children</li>
+						<li>Assisted with maintenance of camp grounds</li>
+						<li>Maintained care and assistance in a week-long, overnight camp setting</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<b>June 2014 - July 2015</b><br>
+					<i>Ruston, LA</i>
 				</div>
 			</div>
 		</div>
 
-		<div class="section" id="skills">
-			<div class="secHead">
-				<h3>Skills</h3>
-			</div>
-			<div class="item">
-				<ul class="itemlist">
-					<li>
-						<h5>Programming Languages</h5>
-						<p class="description">
-							HTML, CSS, JavaScript, jQuery, React, Python 3, C#
-						</p>
-					</li>
-					<li>
-						<h5>Cloud Services</h5>
-						<p class="description">
-							Microsoft Azure, Amazon Web Services
-						</p>
-					</li>
-					<li>
-						<h5>Analytics Tools</h5>
-						<p class="description">
-							PowerBI, Tableau
-						</p>
-					</li>
-				</ul>
-			</div>
+		<hr>
+
+		<div class="container-fluid margin-bottom-md" id="skills">
+			<h2>Skills</h2>
+
+			<ul>
+				<li class="margin-bottom-sm">
+					<b>Programming Languages</b>
+					<br>
+					<span>HTML, CSS, JavaScript, jQuery, React, Python 3, C#</span>
+				</li>
+				<li class="margin-bottom-sm">
+					<b>Cloud Services</b>
+					<br>
+					<span>Microsoft Azure, Amazon Web Services</span>
+				</li>
+				<li class="margin-bottom-sm">
+					<b>Analytics Tools</b>
+					<br>
+					<span>PowerBI, Tableau</span>
+				</li>
+			</ul>
 		</div>
 
-		<div class="section" id="interests_activities">
-			<div class="secHead">
-				<h3>
-					Other Interests and Activities
-				</h3>
-			</div>
-			<div class="item">
-				<ul class="itemlist">
-					<li>Alpha Kappa Psi - Student Advisory Council</li>
-					<li>LSU Student Government - President's Cabinet</li>
-				</ul>
-			</div>
+		<div class="container-fluid margin-bottom-md" id="other">
+			<h2>Other Interests and Activities</h2>
+			
+			<ul>
+				<li>Alpha Kappa Psi - Student Advisory Council</li>
+				<li>LSU Student Government - President's Cabinet</li>
+			</ul>
 		</div>
 
 		<div class="section">
@@ -348,36 +318,23 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="b01">
-			<a href="resources/documents/JordanPrechacResume.pdf" ; target="_blank" ;>
-				PDF Version
-			</a>
-		</div>
 		</div>
 
-		<hr>
-		<div class="signature">
-			<address>
-				<b>Jordan Prechac</b><br>
-				Technology Enthusiast<br />
-				New Orleans native - Who Dat!<br />
-				<a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">
-					LinkedIn
-				</a>
+		<div class="container-fluid">
+			<hr>
 		</div>
 
-		<!-- <div id="contact">
-    <a href="contact/contact.html">
-      <button type="button">
-        Contact me
-      </button>
-    </a>
-  </div> -->
-
-		<div id="btt" class="inter_link" title="Back to top">
-			<a href="">Back to top</a>
-		</div>
+		<footer class="footer">
+			<div class="container text-muted">
+				&copy; Jordan Prechac, <span id="year"></span>
+				<br>
+				<a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">LinkedIn</a>
+				<br>
+				<a href="https://github.com/jprechac" title="GitHub" target="_blank">GitHub</a>
+				<br>
+				<a href="mailto:jprechac@gmail.com" title="jprechac@gmail.com">Email</a>
+			</div>
+		</footer>
 	</main>
 </body>
 <html>
