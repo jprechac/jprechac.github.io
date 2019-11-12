@@ -1,3 +1,15 @@
+.margin-none {
+    margin: 0px;
+}
+.margin-sm {
+    margin: var(--sm-margin);
+}
+.margin-md {
+    margin: var(--md-margin);
+}
+.margin-lg {
+    margin: var(--lg-margin);
+}
 .margin-top-sm {
     margin-top: var(--sm-margin);
 }

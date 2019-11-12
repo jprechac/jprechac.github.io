@@ -2,9 +2,10 @@
 <html lang="en-US">
 
 <head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="content-type" content="text/html" />
 	<meta name="author" content="Jordan Prechac" />
-	<meta http-equiv="content-type" content="text/html">
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title>Jordan Prechac</title>
 
@@ -64,116 +65,99 @@
 	</div>
 
 	<main class="container">
-		<div class="header">
-			<h1>
-				Resume
-			</h1>
-		</div>
-		<div class="section">
-			<div class="secHead">
-				<h3>
-					Education
-				</h3>
-			</div>
-			<div class="item" id="LSU">
-				<div class="row">
-					<div class="column left">
-						<div onclick="hide('LSU')" id="LSU_head">
-							<b>Louisiana State University</b><br>
-						</div>
-						<i>Baton Rouge, LA</i><br>
-						Bachelor of Science: Information Systems and Decision Sciences<br>
-						Minor: Analytics
-					</div>
-					<div class="column right">
-						<b>Graduating May 2020</b><br>
-						<i>Overall GPA: 3.34</i>
-					</div>
+		<div class="container-fluid margin-bottom-md" id="education">
+			<h2>Education</h2>
+			<div class="row margin-bottom-sm" id="LSU">
+				<div class="col">
+					<b>Louisiana State University</b>
+					<br>
+					<i>Baton Rouge, LA</i>
+					<br>
+					Bachelor of Science: Information Systems and Decision Sciences
+					<br>
+					Minor: Analytics
+				</div>
+				<div class="col-3">
+					<b>Graduating May 2020</b>
+					<br>
+					<i>Overall GPA: 3.34</i>
 				</div>
 			</div>
-			<div class="item" id="Jesuit">
-				<div class="row">
-					<div class="column left">
-						<div onclick="hide('Jesuit')" id="Jesuit_head">
-							<b>Jesuit High School New Orleans</b><br>
-						</div>
-						<i>New Orleans, LA</i>
-					</div>
-					<div class="column right">
-						<b>Class of 2016</b><br>
-						<i>GPA: 3.5</i>
-					</div>
+			<div class="row margin-bottom-sm" id="Jesuit">
+				<div class="col">
+					<b>Jesuit High School New Orleans</b>
+					<br>
+					<i>New Orleans, LA</i>
+				</div>
+				<div class="col-3">
+					<b>Class of 2016</b>
+					<br>
+					<i>GPA: 3.5</i>
 				</div>
 			</div>
 		</div>
 
-		<div class="section">
-			<div class="secHead">
-				<h3>
-					Work and Leadership Experience
-				</h3>
-			</div>
-			<div class="item" id="revibe">
-				<div class="row">
-					<div class="column left">
-						<b>Back-end Developer</b><br>
-						<i>Revibe</i>
-						<ul class="itemlist">
-							<li>Redesign and build database to store our own artist's songs as well as references to
-								other services' API endpoints</li>
-							<li>Create API endpoints from our database to connect to both mobile and web applications
-								using the Django REST Framework</li>
-							<li>Collaborate with front-end team to ensure that all back-end services are properly
-								supporting the applications</li>
-							<!-- <li>Consult with business owners to explain technology stack to current and potential investors</li> -->
-						</ul>
-					</div>
-					<div class="column right">
-						<b>October 2019 - Present</b><br>
-						<i>Baton Rouge, LA</i>
-					</div>
+		<hr>
+
+		<div class="container-fluid margin-bottom-md" id="Work">
+			<h2>Work and Leadership Experience</h2>
+
+			<div class="row margin-bottom-sm" id="Revibe">
+				<div class="col">
+					<h5 class="margin-none">Back-end Developer</h5>
+					<i>Revibe</i>
+					<ul>
+						<li>Redesign and build database to store our own artist's songs as well as references to
+							other services' API endpoints</li>
+						<li>Create API endpoints from our database to connect to both mobile and web applications
+							using the Django REST Framework</li>
+						<li>Collaborate with front-end team to ensure that all back-end services are properly
+							supporting the applications</li>
+						<!-- <li>Consult with business owners to explain technology stack to current and potential investors</li> -->
+					</ul>
+				</div>
+				<div class="col-3">
+					<b>October 2019 - Present</b>
+					<br>
+					<i>Baton Rouge, LA</i>
 				</div>
 			</div>
-			<div class="item" id="ots">
-				<div class="row">
-					<div class="column left">
-						<b>Enterprise Architect Student Worker</b><br>
-						<i>Louisiana Office of Technology Services - Enterprise Architecture</i>
-						<ul class="itemlist">
-							<li>Build a Microsoft SQL Server database for tracking server/application information</li>
-							<li>Migrate data from independent files to Amazon Web Services databases</li>
-							<li>Develop a web-based application for asset management using Python's Django framework
-							</li>
-							<li>Convert the Python web-app to C# and ASP.NET's Model-View-Controller framework</li>
-							<li>Create and test build and deployment pipelines using Bamboo</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>March 2019 - Present</b><br>
-						<i>Baton Rouge, LA</i>
-					</div>
+			<div class="row margin-bottom-sm" id="ots">
+				<div class="col">
+					<h5 class="margin-none">Enterprise Architect Student Worker</h5>
+					<i>Louisiana Office of Technology Services - Enterprise Architecture</i>
+					<ul class="itemlist">
+						<li>Build a Microsoft SQL Server database for tracking server/application information</li>
+						<li>Migrate data from independent files to Amazon Web Services databases</li>
+						<li>Develop a web-based application for asset management using Python's Django framework
+						</li>
+						<li>Convert the Python web-app to C# and ASP.NET's Model-View-Controller framework</li>
+						<li>Create and test build and deployment pipelines using Bamboo</li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<b>March 2019 - Present</b><br>
+					<i>Baton Rouge, LA</i>
 				</div>
 			</div>
-			<div class="item" id="cvx">
-				<div class="row">
-					<div class="column left">
-						<b>Business Intelligence Intern</b><br>
-						<i>Chevron</i>
-						<ul class="itemlist">
-							<li>Utilize Microsoft Azure Databricks to merge HR data from 15+ data sources to create
-								rosters for all 45,000+ employees</li>
-							<li>Create a Power BI dashboard to enhance HR's decision making while choosing candidates
-								for internal job postings and promotions</li>
-							<li>Write a program alongside data scientists and machine-learning engineers for real-time
-								processing of streamed data using an Azure Function and Azure Event Hub</li>
-							<li>Develop a web application using the Microsoft PowerApps platform in a Hackathon-style
-								event with a team of 4 other interns from across the IT function</li>
-						</ul>
-					</div>
-					<div class="column right">
-						<b>May 2019 - August 2019</b><br>
-						<i>Houston, TX</i>
-					</div>
+			<div class="row margin-bottom-sm" id="cvx">
+				<div class="col">
+					<h5 class="margin-none">Business Intelligence Intern</h5>
+					<i>Chevron</i>
+					<ul class="itemlist">
+						<li>Utilize Microsoft Azure Databricks to merge HR data from 15+ data sources to create
+							rosters for all 45,000+ employees</li>
+						<li>Create a Power BI dashboard to enhance HR's decision making while choosing candidates
+							for internal job postings and promotions</li>
+						<li>Write a program alongside data scientists and machine-learning engineers for real-time
+							processing of streamed data using an Azure Function and Azure Event Hub</li>
+						<li>Develop a web application using the Microsoft PowerApps platform in a Hackathon-style
+							event with a team of 4 other interns from across the IT function</li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<b>May 2019 - August 2019</b><br>
+					<i>Houston, TX</i>
 				</div>
 			</div>
 			<div class="item" id="akp">
@@ -348,36 +332,23 @@
 				</div>
 			</div>
 		</div>
-
-		<div id="b01">
-			<a href="resources/documents/JordanPrechacResume.pdf" ; target="_blank" ;>
-				PDF Version
-			</a>
-		</div>
 		</div>
 
-		<hr>
-		<div class="signature">
-			<address>
-				<b>Jordan Prechac</b><br>
-				Technology Enthusiast<br />
-				New Orleans native - Who Dat!<br />
-				<a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">
-					LinkedIn
-				</a>
+		<div class="container-fluid">
+			<hr>
 		</div>
 
-		<!-- <div id="contact">
-    <a href="contact/contact.html">
-      <button type="button">
-        Contact me
-      </button>
-    </a>
-  </div> -->
-
-		<div id="btt" class="inter_link" title="Back to top">
-			<a href="">Back to top</a>
-		</div>
+		<footer class="footer">
+			<div class="container text-muted">
+				&copy; Jordan Prechac, <span id="year"></span>
+				<br>
+				<a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">LinkedIn</a>
+				<br>
+				<a href="https://github.com/jprechac" title="GitHub" target="_blank">GitHub</a>
+				<br>
+				<a href="mailto:jprechac@gmail.com" title="jprechac@gmail.com">Email</a>
+			</div>
+		</footer>
 	</main>
 </body>
 <html>
