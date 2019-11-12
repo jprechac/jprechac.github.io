@@ -1,4 +1,4 @@
 window.onload = () => {
     RunNav();
-    FooterYear();
+    RunFooter();
 };
