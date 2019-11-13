@@ -2,9 +2,10 @@
 <html lang='en'>
 
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-type" content="text/html" />
     <meta name="author" content="Jordan Prechac" />
-    <meta http-equiv="content-type" content="text/html">
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Jordan Prechac</title>
 
@@ -30,27 +31,13 @@
     <!-- js -->
     <script src="resources/js/base.js"></script>
     <script src="resources/js/nav-extra.js"></script>
+    <script src="resources/js/footer-extra.js"></script>
     <script src="resources/js/events.js"></script>
 </head>
 
 
 <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top" id="nav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Jordan Prechac</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn"
-                        target="_blank">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <div id="nav-import"></div>
 
     <div class="container">
         <div class="alert alert-info" role="alert">
@@ -107,8 +94,11 @@
                         </h3>
                         <p class="text-muted">
                             Revibe combines your Spotify and YouTube libraries so that you never have to interrupt
-                            your queue again. Check out the website <a class="quiet-link" href="https://revibe.tech"
+                            your queue again. Check out the website
+                            <span class="color-revibe">
+                                <a class="quiet-link" href="https://revibe.tech"
                                 target="_blank" title="Revibe">here</a>.
+                            </span>
                         </p>
                     </div>
                 </div>
@@ -133,6 +123,15 @@
                             <a class="quiet-link" href="https://www.doa.la.gov/Pages/ots/Index.aspx" target="_blank"
                                 title="LA Office of Technology Services">Louisiana Office of Technology Services</a>
                         </h3>
+                        <p class="text-muted">
+                            Simply stated, OTS was legislatively created and charged with managing all IT systems and services for the Executive Department as efficiently and effectively as possible.
+                            Click
+                            <span class="color-louisiana">
+                                <a class="quiet-link" href="https://www.doa.la.gov/Pages/ots/Index.aspx" target="_blank"
+                                title="LA Office of Technology Services">here</a>
+                            </span>
+                            to find out more on some of the early benefits OTS has produced.
+                        </p>
                     </div>
                     <div class="col-md-auto">
                         <img src="./resources/images/louisiana.jpg" alt="Louisiana logo" height="200px" width="200px">
@@ -149,15 +148,7 @@
         <hr>
     </div>
 
-    <footer class="footer">
-        <div class="container text-muted">
-            &copy; Jordan Prechac, <span id="year"></span>
-            <br>
-            <a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">LinkedIn</a>
-            <br>
-            <a href="mailto:jprechac@gmail.com" title="Email">Email</a>
-        </div>
-    </footer>
+    <footer class="footer" id="footer"></footer>
 </body>
 
 </html>
