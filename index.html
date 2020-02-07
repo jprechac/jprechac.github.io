@@ -31,26 +31,30 @@
     <!-- js -->
     <script src="resources/js/base.js"></script>
     <script src="resources/js/nav-extra.js"></script>
+    <script src="resources/js/footer-extra.js"></script>
     <script src="resources/js/events.js"></script>
 </head>
 
+
 <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top" id="nav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Jordan Prechac</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn"
-                        target="_blank">LinkedIn</a>
+    <div id="nav-import">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top" id="nav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Jordan Prechac</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="navbar-nav">
+                        <a class="nav-link" id="resume-link" href="resume.html">Resume</a>
+                        <a class="nav-link" id="linkedin-link" href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn"
+                            target="_blank">LinkedIn</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div class="container">
         <div class="alert alert-info" role="alert">
@@ -161,17 +165,7 @@
         <hr>
     </div>
 
-    <footer class="footer">
-        <div class="container text-muted">
-            &copy; Jordan Prechac, <span id="year"></span>
-            <br>
-            <a href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn" target="_blank">LinkedIn</a>
-            <br>
-            <a href="https://github.com/jprechac" title="GitHub" target="_blank">GitHub</a>
-            <br>
-            <a href="mailto:jprechac@gmail.com" title="jprechac@gmail.com">Email</a>
-        </div>
-    </footer>
+    <footer class="footer" id="footer"></footer>
 </body>
 
 </html>
