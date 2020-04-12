@@ -52,6 +52,9 @@
 .color-louisiana {
     color: var(--louisiana-blue);
 }
+.color-chevron {
+    color: var(--chevron-blue);
+}
 .quiet-link {
     color: inherit;
     text-decoration: none;
