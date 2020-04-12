@@ -48,8 +48,8 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <div class="navbar-nav">
                         <a class="nav-link" id="resume-link" href="resume.html">Resume</a>
-                        <a class="nav-link" id="linkedin-link" href="https://www.linkedin.com/in/jordanprechac/" title="LinkedIn"
-                            target="_blank">LinkedIn</a>
+                        <a class="nav-link" id="linkedin-link" href="https://www.linkedin.com/in/jordanprechac/"
+                            title="LinkedIn" target="_blank">LinkedIn</a>
                     </div>
                 </div>
             </div>
@@ -78,9 +78,7 @@
                 <div class="col-md">
                     <!-- <h1>Meet Jordan</h1> -->
                     <p>
-                        Jordan Prechac &hellip;
-                        <br>
-                        something something something
+                        Jordan Prechac&hellip;
                     </p>
                     <p>
                         If you would like to get in touch, please connect with/message me on <a
@@ -91,11 +89,11 @@
             </div>
         </div>
 
-        <div class="container-fluid" id="skills">
+        <!-- <div class="container-fluid" id="skills">
             <div class="margin-bottom-md margin-top-lg">
                 <h1>Skills</h1>
             </div>
-        </div>
+        </div> -->
 
         <div class="container-fluid" id="experience">
             <div class="margin-bottom-md margin-top-lg">
@@ -104,7 +102,10 @@
 
             <div class="margin-bottom-md" id="revibe">
                 <div class="row">
-                    <div class="col-md-auto"></div>
+                    <div class="col-md-auto">
+                        <img src="./resources/images/revibe_logo_500x500.png" alt="Revibe logo" height="200px"
+                            width="200px">
+                    </div>
                     <div class="col-md">
                         <h3 class="color-revibe">
                             <a class="quiet-link" href="https://revibe.tech" target="_blank" title="Revibe">Revibe</a>
@@ -113,8 +114,8 @@
                             Revibe combines your Spotify and YouTube libraries so that you never have to interrupt
                             your queue again. Check out the website
                             <span class="color-revibe">
-                                <a class="quiet-link" href="https://revibe.tech"
-                                target="_blank" title="Revibe">here</a>.
+                                <a class="quiet-link" href="https://revibe.tech" target="_blank"
+                                    title="Revibe">here</a>.
                             </span>
                         </p>
                     </div>
@@ -122,12 +123,49 @@
                 <div class="row">
                     <div class="col">
                         <p>
-                            As an intern for Revibe, I was responsible for the majority of the back-end development
-                            and subsequent API construction.
-                            <br>
-                            We used Django and the Django REST Framework to build out our databases and APIs,
-                            and hosted our services in Amazon Web Services EC2 instances. File/media storage was
-                            handled by an AWS S3 bucket, which I also implemented.
+                            As Revibe's Cloud Architect, I was responsible for the majority of the back-end and API
+                            development as well as all business intelligence solutions. I also played a major role in
+                            helping the company adapt a data-driven mindset, and created many of the datasets that drive
+                            strategic decisions.
+                            <br /><br />
+                            Here is the technology stack I created for the company:
+                            <table class="table">
+                                <thead></thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Application Framework</th>
+                                        <td>Django/Django REST Framework</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hosting</th>
+                                        <td>AWS Elastic Beanstalk</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Storage</th>
+                                        <td>
+                                            Amazon Aurora (MySQL)
+                                            <br>
+                                            AWS DynamoDB
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>File Storage</th>
+                                        <td>AWS Simple Storage Service (S3)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>In-Memory Message Broker</th>
+                                        <td>AWS ElastiCache (Redis)</td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <th>Networking</th>
+                                        <td>AWS Virtual Private Cloud (VPC)</td>
+                                    </tr> -->
+                                    <tr>
+                                        <th>Content Distribution</th>
+                                        <td>AWS CloudFront</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </p>
                     </div>
                 </div>
@@ -135,27 +173,44 @@
 
             <div class="margin-bottom-md" id="louisiana">
                 <div class="row">
+                    <div class="col-md-auto">
+                        <img src="./resources/images/louisiana.jpg" alt="Louisiana logo" height="200px" width="200px">
+                    </div>
                     <div class="col-md">
                         <h3 class="color-louisiana">
                             <a class="quiet-link" href="https://www.doa.la.gov/Pages/ots/Index.aspx" target="_blank"
                                 title="LA Office of Technology Services">Louisiana Office of Technology Services</a>
                         </h3>
                         <p class="text-muted">
-                            Simply stated, OTS was legislatively created and charged with managing all IT systems and services for the Executive Department as efficiently and effectively as possible.
+                            Simply stated, OTS was legislatively created and charged with managing all IT systems and
+                            services for the Executive Department as efficiently and effectively as possible.
                             Click
                             <span class="color-louisiana">
                                 <a class="quiet-link" href="https://www.doa.la.gov/Pages/ots/Index.aspx" target="_blank"
-                                title="LA Office of Technology Services">here</a>
+                                    title="LA Office of Technology Services">here</a>
                             </span>
                             to find out more on some of the early benefits OTS has produced.
                         </p>
                     </div>
-                    <div class="col-md-auto">
-                        <img src="./resources/images/louisiana.jpg" alt="Louisiana logo" height="200px" width="200px">
-                    </div>
                 </div>
                 <div class="row">
                     <div class="col"></div>
+                </div>
+            </div>
+
+            <div class="margin-bottom-md" id="chevron">
+                <div class="row">
+                    <div class="col-md-auto">
+                        <img src="./resources/images/chevron.jpg" alt="Chevron logo" height="200px" width="200px" />
+                    </div>
+                    <div class="col-md">
+                        <h3 class="color-chevron">
+                            <a class="quiet-link" href="https://www.chevron.com/" target="_blank" title="Chevron">Chevron</a>
+                        </h3>
+                        <p class="text-muted">
+                            "Chevron Information Technology company integrates IT to connect people, ideas, processes and data."
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
